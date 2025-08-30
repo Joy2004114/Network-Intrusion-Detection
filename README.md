@@ -75,24 +75,6 @@ This repository presents a complete pipeline for detecting network intrusions us
 
 ---
 
-## Requirements
-
-```bash
-pip install pandas numpy seaborn scikit-learn imbalanced-learn xgboost tensorflow kagglehub
-```
-
----
-
-## Usage
-
-```bash
-python network_intrusion.py
-```
-
-Make sure the dataset is downloaded using `kagglehub`, or placed in the correct directory.
-
----
-
 ## Notes
 
 - All models are trained on the same split (70% train, 30% test).
